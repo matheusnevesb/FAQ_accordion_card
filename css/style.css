@@ -8,7 +8,7 @@ body {
     height: 100vh;
     background: rgb(175,103,233);
     background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 
 body div img {
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 16%;
     width: 70%;
 }
@@ -28,6 +28,7 @@ body div:first-child {
     width: 80%;
     margin-top: 110px;
     height: 600px;
+    border-radius: 20px;
 }
 
 body div:first-child h1 {
@@ -38,7 +39,7 @@ body div:first-child h1 {
 body div div h2 {
     font-weight: normal;
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 body div div h2::after {
@@ -58,7 +59,7 @@ body div div .maisInformacoes {
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    width: 100vw; 
+    max-width: 100vw; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
