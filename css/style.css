@@ -68,3 +68,22 @@ body div div .maisInformacoes {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (min-width: 375px) {
+    body div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    
+    body div img {
+        position: relative;
+        width: 660px;
+        grid-column: 1;
+        grid-row-start: 1;
+        grid-row-end: 9;
+        align-self: center;
+        left: -23%;
+        top: -4%;
+    }
+}
